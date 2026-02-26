@@ -2,9 +2,9 @@
 
 ## Introdução
 
-Olá, como estão? instalação do **Cell2Sequence**!
+Olá, como estão? Este é um guia de instalação do **Cell2Sequence**!
 
-Antes de começar, não recomendo usar o gerenciador de ambiente padrão do Python porque você pode ter mais problemas quando se trata desse assunto, ou seja, para dependênicas de bibiotecas de visão computacional e inteligência artificial. Recomendo que utilize o **CONDA** mesmo, pois ele gerencia melhor os pacotes. Além disso, os pacotes do repositório Git que será instalado já possuem configurações projetadas para ambiente Conda.
+Antes de começar, não recomendo usar o gerenciador de ambiente padrão do Python porque você pode ter mais problemas quando se trata desse assunto, ou seja, para dependências de bibliotecas de visão computacional e inteligência artificial. Recomendo que utilize o **CONDA** mesmo, pois ele gerencia melhor os pacotes. Além disso, os pacotes do repositório Git que será instalado já possuem configurações projetadas para ambiente Conda.
 
 Outro ponto que gostaria de destacar é: tenha o driver da NVIDIA instalado. Neste PC, utilizei uma NVIDIA GeForce RTX 3060 com 12GB de VRAM, rodando em Linux (Linux Mint). Não se preocupe com o CUDA, pois ele será instalado automaticamente via PyTorch.
 
@@ -370,14 +370,14 @@ CUDA version: 12.1
 
 Existem alguns tutoriais em: `cell2sentence/tutorials/`.
 
-Tive problema executar alguns treinamento mais por exesso de uso de memoria da gpu, afina minha só tem 12GB. Entãp recomendo que use:
+Tive problemas ao executar alguns treinamentos, principalmente por excesso de uso de memória da GPU, afinal a minha só tem 12GB. Então recomendo que use:
 
 ```
 with torch.no_grad():
     torch.cuda.empty_cache()
 ```
 
-Principalmente no trecho do arquivo: `c2s_tutorial_2_cell_embedding.ipynb`, substituia dessa forma:
+Principalmente no trecho do arquivo: `c2s_tutorial_2_cell_embedding.ipynb`, substitua dessa forma:
 ```
 import torch
 # Embed cells
