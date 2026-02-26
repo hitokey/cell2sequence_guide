@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Olá, como estão? email é para falar da instalação do **Cell2Sequence**!
+Olá, como estão? instalação do **Cell2Sequence**!
 
 Antes de começar, não recomendo usar o gerenciador de ambiente padrão do Python porque você pode ter mais problemas quando se trata desse assunto, ou seja, para dependênicas de bibiotecas de visão computacional e inteligência artificial. Recomendo que utilize o **CONDA** mesmo, pois ele gerencia melhor os pacotes. Além disso, os pacotes do repositório Git que será instalado já possuem configurações projetadas para ambiente Conda.
 
