@@ -224,7 +224,7 @@ Index(['donor_id', 'development_stage_ontology_term_id',
 Don't forget to swich back to the main branch:
 
 ```bash
-~/cell2sequence_guide$ git switch -c main
+~/cell2sequence_guide$ git switch main
 ~/cell2sequence_guide$ git branch
 ```
 
