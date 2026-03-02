@@ -126,7 +126,7 @@ um terminal, introduza a seguinte linha em `.bashrc`:
 ```bash
 export CONDA_AUTO_ACTIVATE_BASE=false
 ```
-Agora, execute o script abaixo, que vai
+Execute o script abaixo, que vai
 modifical `.bashrc` para trabalhar com Conda.
 
 ```bash
