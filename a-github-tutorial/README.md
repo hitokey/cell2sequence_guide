@@ -221,13 +221,6 @@ Index(['donor_id', 'development_stage_ontology_term_id',
       dtype='object')
 ```
 
-Don't forget to swich back to the main branch:
-
-```bash
-~/cell2sequence_guide$ git switch main
-~/cell2sequence_guide$ git branch
-```
-
 ### Upload de um arquivo de 88 MB
 Agora, vamos ver como fazer upload de um arquivo maior que 25 MB, porém menor que 100 MB. Eu crio uma pasta chamada 'under100' para colocar o arquivo 'bladder.h5ad'. Então, executo os comandos abaixo.
 
@@ -262,6 +255,20 @@ remote:      https://github.com/FemtoEmacs/cell2sentence_guide/pull/new/large-h5
 remote:
 To github.com:FemtoEmacs/cell2sequence_guide.git
  * [new branch]      large-h5ads -> large-h5ads
+```
+
+Don't forget to switch back to the main branch
+after finishing the upload of the large file.
+After creating a branch, you can switch
+between branches with the command
+`git switch main` or `git switch large-h5ads`
+as shown below. The asterisk shows which branch
+is active.
+
+```bash
+~/cell2sequence_guide$ git switch main
+~/cell2sequence_guide$ git branch
+
 ```
 
 
