@@ -45,5 +45,5 @@ img  olivetti.py  pancreas.h5ad  README.md  umap-oliv.py violin.py
 
 ## Resultado
 
-![UMAP de células de pâncreas](c2s-0-umap/img/umap-pancreas-h5ad.jpg)
+![UMAP de células de pâncreas](../c2s-0-umap/img/umap-pancreas-h5ad.jpg)
 
