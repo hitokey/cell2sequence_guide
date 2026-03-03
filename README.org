@@ -4,11 +4,11 @@
 
 * Introdução
 
-O *Cell2Sequence* (C2S) é uma abordagem inovadora desenvolvida pelo van Dijk Lab da Yale University que permite que Modelos de Linguagem de Grande Escala (LLMs) compreendam e analisem dados de sequenciamento de RNA de célula única (scRNA-seq).
+O *Cell2Sentence* (C2S) é uma abordagem inovadora desenvolvida pelo van Dijk Lab da Yale University que permite que Modelos de Linguagem de Grande Escala (LLMs) compreendam e analisem dados de sequenciamento de RNA de célula única (scRNA-seq).
 
 ** Como Funciona
 
-O Cell2Sequence transforma vetores de expressão gênica em "sentenças celulares" - sequências de nomes de genes separados por espaços e ordenados por expressão decrescente. Esta representação permite que LLMs processem dados transcriptômicos usando processamento de linguagem natural.
+O Cell2Sentence transforma vetores de expressão gênica em "sentenças celulares" - sequências de nomes de genes separados por espaços e ordenados por expressão decrescente. Esta representação permite que LLMs processem dados transcriptômicos usando processamento de linguagem natural.
 
 ** Modelos e Dados
 

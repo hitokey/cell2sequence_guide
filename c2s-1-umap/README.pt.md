@@ -1,7 +1,7 @@
 
 # Conversão de arquivos H5ad 
 
-No cell2sequence  trabalhamos com arquivos no formato h5ad, nesse formato é amplamente usado em bioinformática (scRNA-seq, etc), camando Anndata. Mas nem todos os dataset geneticos possui esse formato. Nesse documento vamos explicar algumas maneira de conversão de arquivos para H5ad, além de explicifar alguns dataset publicos. 
+No C  trabalhamos com arquivos no formato h5ad, nesse formato é amplamente usado em bioinformática (scRNA-seq, etc), camando Anndata. Mas nem todos os dataset geneticos possui esse formato. Nesse documento vamos explicar algumas maneira de conversão de arquivos para H5ad, além de explicifar alguns dataset publicos. 
 
 
 ## Lista de Dataset Publicos
@@ -31,13 +31,13 @@ No cell2sequence  trabalhamos com arquivos no formato h5ad, nesse formato é amp
 
 ### Conda - Ambiente:
 
-Se você segui a instalação do cell2sequence [aqui](b-instalar) você instalou o miniconda em seu sistema. Então podemos utiliza-la para gerar um ambiente que faz a conversão dos arquivos tsv para H5ad. Então começamos com:
+Se você seguiu a instalação do cell2sentence [aqui](b-instalar) você instalou o miniconda em seu sistema. Então podemos utilizá-la para gerar um ambiente que faz a conversão dos arquivos tsv para H5ad. Então começamos com:
 
 
  - Crie o ambiente de conversão.
 
 ```
-(base) pedro@server-02:/mnt/d/Works/$ conda create -n generate-h5ad
+(base) pedro@server-02:/mnt/d/Works/$ conda create -n generate-h5ad python=3.8
 ```
 
 
