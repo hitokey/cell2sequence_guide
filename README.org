@@ -1,0 +1,17 @@
+#+TITLE: Cell2Sequence Guide
+#+AUTHOR: Pedro Fernandes
+#+DATE: <2026-03-02 Mon>
+
+* Introdução
+
+
+* Index
+
+| Index   | Titulo                                  | Português | Inglês |
+|---------+-----------------------------------------+-----------+--------|
+| Extra-a | Configuração SSH Git                    |           | [[./a-github-tutorial/README.md][Here]]   |
+| Extra-b | Instalação                              | [[./0-install/README.md][Aqui]]      |        |
+| Extra-c | Problema com Drive Nvidia               |           | [[./c-nvidi-drive][Here]]   |
+| 1       | UMAP of h5dad Files                     | [[c2s-0-umap][Aqui]]      |        |
+| 2       | Converção H5AD para Single-Cell RNA-seq |           | [[./c2s-1-umap][Here]]   |
+|         |                                         |           |        |
