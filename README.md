@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Olá, como estão? Este é um guia de instalação do **Cell2Sequence**!
+Olá, como estão? Este é um guia de instalação do **Cell2Sentence**!
 
 Antes de começar, não recomendo usar o gerenciador de ambiente padrão do Python porque você pode ter mais problemas quando se trata desse assunto, ou seja, para dependências de bibliotecas de visão computacional e inteligência artificial. Recomendo que utilize o **CONDA** mesmo, pois ele gerencia melhor os pacotes. Além disso, os pacotes do repositório Git que será instalado já possuem configurações projetadas para ambiente Conda.
 
@@ -114,6 +114,27 @@ Preparing transaction: ...working... done
 Executing transaction: ...working... done
 installation finished.
 ```
+### Iniciar o Conda
+
+Acho que ninguém em sã consciência quer escrever scripts
+em Python para sempre. De fato, no futuro, vamos oferecer
+tutoriais sobre como utilizar as bibliotecas de Python
+do Lisp, do R e do Prolog. Assim, podemos abandonar Python.
+Então, para que Conda não seja ativada toda vez que você abra
+um terminal, introduza a seguinte linha em `.bashrc`:
+
+```bash
+export CONDA_AUTO_ACTIVATE_BASE=false
+```
+Execute o script abaixo, que vai
+modifical `.bashrc` para trabalhar com Conda.
+
+```bash
+~/miniconda3/bin/conda init
+```
+
+Reinicialize o terminal. Agora, a `(base)` de
+conda só será ativada quando você quiser.
 
 ### Ativar o Conda
 

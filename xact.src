@@ -1,0 +1,10 @@
+
+
+# Initialize conda for this shell
+
+~/miniconda3/bin/activate
+
+# Activate environment
+conda activate cell
+
+
