@@ -1,4 +1,4 @@
-#+TITLE: Cell2Sequence Guide
+#+TITLE: Cell2Sentence Guide
 #+AUTHOR: Pedro Fernandes
 #+DATE: <2026-03-02 Mon>
 
@@ -19,7 +19,7 @@ O projeto disponibiliza modelos pré-treinados de diferentes escalas (incluindo 
 
 ** Objetivo deste Guia
 
-Este guia fornece instruções práticas para instalação, configuração e uso do Cell2Sequence, incluindo análises UMAP e conversão de arquivos H5AD para análise de scRNA-seq.
+Este guia fornece instruções práticas para instalação, configuração e uso do Cell2Sentence, incluindo análises UMAP e conversão de arquivos H5AD para análise de scRNA-seq.
 
 
 * Conteúdo
