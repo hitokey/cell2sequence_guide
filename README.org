@@ -28,7 +28,7 @@ Este guia fornece instruções práticas para instalação, configuração e uso
 |-----------+-----------------------------------------+-----------+--------|
 | Extra-a.0 | Configuração SSH Git                    |           | [[./a-github-tutorial/README.md][Here]]   |
 | Extra-a.1 | Comandos do Github                      |           | [[./a-github-tutorial/gitcmds.md][Here]]   |
-| Extra-b.0 | Instalação                              | [[./0-install/README.md][Aqui]]      |        |
+| Extra-b.0 | Instalação                              | [[./b-install/README.md][Aqui]]      |        |
 | Extra-b.1 | Problema com Drive Nvidia               |           | [[./b-instalar/nvidia-smi-does-not-work.md][Here]]   |
 | Extra-c.0 | Controle de Ambiente Anaconda           |           | [[./c-anaconda/activation.md][Here]]   |
 | 1         | UMAP de Arquivos H5AD                   | [[c2s-0-umap][Aqui]]      |        |
