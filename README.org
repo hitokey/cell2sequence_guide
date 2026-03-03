@@ -34,3 +34,9 @@ Este guia fornece instruções práticas para instalação, configuração e uso
 | 1         | UMAP de Arquivos H5AD                   | [[c2s-0-umap][Aqui]]      |        |
 | 2         | Conversão H5AD para Single-Cell RNA-seq |           | [[./c2s-1-umap][Here]]   |
 |           |                                         |           |        |
+
+* Referencia
+
+ - https://vandijklab-cell2sentence.readthedocs.io/en/latest/
+ - https://huggingface.co/collections/vandijklab/cell2sentence-models
+ - https://github.com/vandijklab/cell2sentence
